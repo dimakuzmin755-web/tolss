@@ -1,0 +1,1 @@
+Offline password manager with SQLCipher encrypted storage and Panic Mode

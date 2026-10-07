@@ -1,0 +1,25 @@
+OneRule is an open-source offline password manager.
+
+All data is stored locally on your device in an encrypted database powered by SQLCipher (AES-256). No account is required and no internet connection is needed.
+
+Features
+
+• Encrypted local database (SQLCipher, AES-256)
+• Master PIN with optional biometric unlock
+• Panic Mode (secondary PIN opens a separate decoy vault)
+• Encrypted backup export and import
+• Category filtering and search
+• Multi-language support
+• Dark and light theme
+
+Panic Mode
+
+A secondary PIN can be configured to open a separate decoy vault with harmless entries. This is intended for situations where you may be forced to unlock your device.
+
+Privacy
+
+OneRule does not use analytics, tracking, or advertising libraries. All data remains on the device. The source code is publicly available under the GPL-3.0 license.
+
+Important
+
+Your PIN is required to access your data. If it is forgotten, the encrypted data cannot be recovered.
