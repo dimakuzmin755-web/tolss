@@ -1,0 +1,251 @@
+{
+    "@@locale": "en",
+    "appTitle": "Moon Vault",
+    "settings": "Settings",
+    "appearance": "Appearance",
+    "auto": "Auto",
+    "light": "Light",
+    "dark": "Dark",
+    "changeMasterPin": "Change Master PIN",
+    "biometricLogin": "Biometric Login",
+    "setPanicPin": "Set Panic PIN",
+    "dataManagement": "Data Management",
+    "backupRestoreTitle": "Backup & Restore",
+    "backupRestoreDescription": "Create encrypted backups and restore from a backup file.",
+    "createBackupCta": "Create Backup",
+    "restoreFromBackupCta": "Restore from Backup",
+    "backupLastUnknown": "No backup yet",
+    "backupGuideTitle": "Important before you continue",
+    "backupGuideStep1": "Create backups regularly and store them somewhere safe.",
+    "backupGuideStep2": "If you lose your PIN, your vault cannot be recovered.",
+    "backupGuideStep3": "Keep your backup passphrase separate from your device.",
+    "backupGuideStep4": "Restoring merges imported items into your current vault.",
+    "exportDebugLogTitle": "Export debug log",
+    "exportDebugLogWarning": "Log may include stack traces but should not include passwords.",
+    "crashReportsSectionTitle": "Crash reports",
+    "shareCrashReportsTitle": "Share crash reports",
+    "shareCrashReportsSubtitle": "If enabled, you can manually export local logs. Reports are never auto-sent.",
+    "shareCrashReportsDisabled": "Enable \"Share crash reports\" in Settings before exporting logs.",
+    "viewLogsTitle": "View logs",
+    "viewLogsEmpty": "No logs available yet.",
+    "copyLogsAction": "Copy logs",
+    "logsCopied": "Logs copied to clipboard.",
+    "debugLogEmpty": "No debug log available yet.",
+    "debugLogExportFailed": "Failed to export debug log.",
+    "exportPasswords": "Export Passwords",
+    "importPasswords": "Import Passwords",
+    "deleteAllData": "Delete All Data",
+    "logout": "LOGOUT",
+    "language": "Language",
+    "english": "English",
+    "turkish": "Turkish",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "save": "Save",
+    "verify": "Verify",
+    "enterPin": "Enter PIN",
+    "addNewPassword": "Add New Password",
+    "editPassword": "Edit Password",
+    "categoryLabel": "Category",
+    "platformTitleLabel": "Platform / Title",
+    "titleRequired": "Title is required",
+    "usernameEmailLabel": "Username / Email",
+    "usernameRequired": "Username is required",
+    "passwordLabel": "Password",
+    "passwordRequired": "Password is required",
+    "generatePasswordTooltip": "Generate Password",
+    "update": "UPDATE",
+    "saveAction": "SAVE",
+    "generatePasswordTitle": "Generate Password",
+    "selectOptions": "Select at least one option",
+    "lengthLabel": "Length: ",
+    "uppercaseOption": "Uppercase (A-Z)",
+    "lowercaseOption": "Lowercase (a-z)",
+    "numbersOption": "Numbers (0-9)",
+    "symbolsOption": "Symbols (!@#)",
+    "refresh": "Refresh",
+    "use": "USE",
+    "categoryGeneral": "General",
+    "categorySocial": "Social",
+    "categoryWork": "Work",
+    "categoryFinance": "Finance",
+    "categoryShopping": "Shopping",
+    "categoryOther": "Other",
+    "categoryAll": "All",
+    "myVaultTitle": "My Vault",
+    "searchPasswordsHint": "Search passwords...",
+    "noPasswordsFound": "No passwords found.",
+    "newPassword": "New Password",
+    "deletePasswordTitle": "Delete Password?",
+    "deletePasswordMessage": "This action cannot be undone.",
+    "passwordDeleted": "Password deleted.",
+    "copiedPassword": "Copied {title} password!",
+    "@copiedPassword": {
+        "placeholders": {
+            "title": {}
+        }
+    },
+    "copiedUsername": "Copied {title} username!",
+    "@copiedUsername": {
+        "placeholders": {
+            "title": {}
+        }
+    },
+    "pinMinLength": "PIN must be at least 4 digits",
+    "incorrectPin": "Incorrect PIN!",
+    "createMasterPinTitle": "Create Master PIN",
+    "createMasterPinSubtitle": "Secure your data with a master PIN.",
+    "enterPinToDecrypt": "Enter your PIN to decrypt data.",
+    "setMasterPinAction": "SET MASTER PIN",
+    "unlockVault": "UNLOCK VAULT",
+    "tapToUseBiometrics": "Tap to use biometrics",
+    "verifyCurrentPinDescription": "Please enter your current PIN to continue.",
+    "wrongPin": "Wrong PIN!",
+    "setNewPinTitle": "Set New PIN",
+    "setNewPinDescription": "Enter your new master PIN.",
+    "pinChangeSuccess": "PIN updated.",
+    "pinChangeFailed": "PIN change failed. Try again.",
+    "enterPanicPin": "Enter Panic PIN",
+    "panicPinSameAsMaster": "Cannot be same as Master PIN",
+    "panicPinSet": "Panic PIN set.",
+    "panicPinInfoTitle": "Before enabling Panic PIN",
+    "panicPinInfoWhatItDoes": "Panic PIN unlocks an alternate emergency flow.",
+    "panicPinInfoDecoyVault": "It shows a decoy vault instead of your real vault.",
+    "panicPinInfoRisk": "If used by mistake, you may think your data is missing.",
+    "panicPinConfirmLabel": "I understand this creates a decoy vault flow.",
+    "panicPinConfirmRequired": "Please confirm that you understand before saving.",
+    "privacyModeHelperText": "Privacy mode shows an empty vault until main PIN unlock.",
+    "biometricAvailable": "Use Fingerprint / Face ID",
+    "biometricUnavailable": "Not available on this device",
+    "deleteAllTitle": "Are you sure?",
+    "deleteAllDescription": "This will permanently delete all your saved passwords.",
+    "allPasswordsDeleted": "All passwords deleted permanently.",
+    "germanShort": "DE",
+    "noPasswordsToExport": "No passwords to export.",
+    "backupShareText": "Moon password backup",
+    "saveBackupFileTitle": "Save backup file",
+    "backupSavedToDevice": "Backup saved to device.",
+    "backupLastTimestamp": "Last backup: {timestamp}",
+    "@backupLastTimestamp": {
+        "placeholders": {
+            "timestamp": {}
+        }
+    },
+    "exportFailed": "Export failed: {error}",
+    "@exportFailed": {
+        "placeholders": {
+            "error": {}
+        }
+    },
+    "passwordsImported": "{count} passwords imported successfully.",
+    "@passwordsImported": {
+        "placeholders": {
+            "count": {}
+        }
+    },
+    "importFailed": "Import failed. Please select a valid backup file.",
+    "importFailedInvalidOrPassword": "Invalid backup or wrong password.",
+    "backupPassphraseTitle": "Backup password",
+    "backupPassphraseHint": "Enter backup password",
+    "backupPassphraseConfirmHint": "Re-enter backup password",
+    "backupPassphraseMismatch": "Passwords do not match.",
+    "backupPassphraseEmpty": "Password cannot be empty.",
+    "backupWizardTitle": "Create Backup",
+    "backupWizardProgress": "Step {current} of {total}",
+    "@backupWizardProgress": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "backupWizardStep1Title": "Step 1: Create backup",
+    "backupWizardStep1Body": "Your backup file is encrypted (.enc). It can only be opened with your backup PIN.",
+    "backupWizardCreateAction": "Create encrypted backup",
+    "backupWizardStep2Title": "Step 2: Choose destination",
+    "backupWizardStep2Body": "Choose where to save your encrypted backup file.",
+    "backupWizardDestinationDownloads": "Downloads",
+    "backupWizardDestinationShare": "Share",
+    "backupWizardStep3Title": "Step 3: Confirm success",
+    "backupWizardSuccessBody": "Encrypted backup created successfully.",
+    "backupWizardFilename": "Filename: {fileName}",
+    "@backupWizardFilename": {
+        "placeholders": {
+            "fileName": {}
+        }
+    },
+    "backupWizardBackAction": "Back",
+    "backupWizardDoneAction": "Done",
+    "restoreSectionTitle": "Restore from backup",
+    "restoreSectionDescription": "Pick an encrypted backup file and enter its backup PIN to restore.",
+    "restorePickFileCta": "Choose backup file",
+    "restoreNoFileChosen": "No file selected",
+    "restoreSelectedFile": "Selected file: {fileName}",
+    "@restoreSelectedFile": {
+        "placeholders": {
+            "fileName": {}
+        }
+    },
+    "restoreSelectFileFirst": "Choose a backup file first.",
+    "restoreWrongPin": "Wrong backup PIN. Try again.",
+    "restoreCorruptFile": "This backup file is corrupt or unsupported.",
+    "restoreUnknownError": "Restore failed. Please try again.",
+    "legacyImportWarningTitle": "Legacy JSON import",
+    "legacyImportWarningBody": "This JSON backup is unencrypted. Importing it may expose your passwords to other apps or services. Continue only if you trust the file and environment.",
+    "legacyImportConfirm": "Import anyway",
+    "clipboardWillClear": "Clipboard will clear in 30 seconds.",
+    "vaultLabel": "Vault",
+    "privacyModeLabel": "Privacy mode",
+    "copiedToClipboard": "Copied to clipboard",
+    "usernameCopied": "Username copied",
+    "autoLockTitle": "Auto-lock",
+    "clipboardSectionTitle": "Clipboard",
+    "clearClipboardAfterTitle": "Clear clipboard after",
+    "alsoClearUsernameCopiesTitle": "Also clear username/email copies",
+    "offLabel": "Off",
+    "passwordRevealControlLabel": "Password visibility",
+    "passwordRevealHoldHint": "Press and hold to reveal password",
+    "passwordRevealHoldTooltip": "Hold to reveal",
+    "passwordRevealReleaseTooltip": "Release to hide",
+    "clearSearchFiltersLabel": "Clear search and filters",
+    "enableClipboardAutoClearFirstHint": "Enable clipboard auto-clear first",
+    "secondsShort": "{seconds} sec",
+    "@secondsShort": {
+        "placeholders": {
+            "seconds": {
+                "type": "int"
+            }
+        }
+    },
+    "minutesShort": "{minutes} min",
+    "@minutesShort": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "confirm": "Confirm",
+    "initErrorTitle": "Initialization failed",
+    "initErrorBody": "We couldn't unlock your vault. You can retry or go to the login screen.",
+    "retry": "Retry",
+    "goToLogin": "Go to Login",
+    "biometricPrompt": "Verify your identity to sign in",
+    "usePinToFinishUnlocking": "Use PIN to finish unlocking.",
+    "openLinkFailed": "Could not open link",
+    "vaultHealthTitle": "Vault Health",
+    "vaultHealthSubtitle": "Weak, duplicate, and stale password checks.",
+    "autofillTitle": "Autofill",
+    "autofillEnabledSubtitle": "Enabled for Moon",
+    "autofillDisabledSubtitle": "Not enabled. Tap to set up.",
+    "backupReminderTitle": "Backup reminder",
+    "backupReminderSubtitle": "Monthly reminder when your last backup is older than 30 days.",
+    "supportDevelopmentTitle": "Support Development",
+    "buyMeCoffeeTitle": "Buy me a coffee",
+    "supportDevelopmentBody": "Built by one developer. Your support helps keep Moon offline and maintained."
+}
+
+

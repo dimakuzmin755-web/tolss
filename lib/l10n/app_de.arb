@@ -1,0 +1,254 @@
+﻿{
+    "@@locale": "de",
+    "appTitle": "Moon Tresor",
+    "settings": "Einstellungen",
+    "appearance": "Aussehen",
+    "auto": "Auto",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "changeMasterPin": "Master-PIN ändern",
+    "biometricLogin": "Biometrischer Login",
+    "setPanicPin": "Panik-PIN setzen",
+    "dataManagement": "Datenverwaltung",
+    "backupRestoreTitle": "Sichern und Wiederherstellen",
+    "backupRestoreDescription": "Erstellen Sie verschlüsselte Backups und stellen Sie aus einer Backup-Datei wieder her.",
+    "createBackupCta": "Backup erstellen",
+    "restoreFromBackupCta": "Aus Backup wiederherstellen",
+    "backupLastUnknown": "Noch kein Backup",
+    "backupGuideTitle": "Wichtig vor dem Fortfahren",
+    "backupGuideStep1": "Erstellen Sie regelmäßig Backups und bewahren Sie sie sicher auf.",
+    "backupGuideStep2": "Wenn Sie Ihre PIN verlieren, kann Ihr Tresor nicht wiederhergestellt werden.",
+    "backupGuideStep3": "Bewahren Sie Ihr Backup-Passwort getrennt vom Gerät auf.",
+    "backupGuideStep4": "Beim Wiederherstellen werden importierte Einträge mit Ihrem aktuellen Tresor zusammengeführt.",
+    "exportDebugLogTitle": "Debug-Log exportieren",
+    "exportDebugLogWarning": "Das Log kann Stack-Traces enthalten, aber keine Passwörter.",
+    "crashReportsSectionTitle": "Absturzberichte",
+    "shareCrashReportsTitle": "Absturzberichte teilen",
+    "shareCrashReportsSubtitle": "Wenn aktiviert, können Sie lokale Logs manuell exportieren. Es wird nichts automatisch gesendet.",
+    "shareCrashReportsDisabled": "Aktivieren Sie in den Einstellungen \"Absturzberichte teilen\", bevor Sie Logs exportieren.",
+    "viewLogsTitle": "Logs anzeigen",
+    "viewLogsEmpty": "Noch keine Logs verfügbar.",
+    "copyLogsAction": "Logs kopieren",
+    "logsCopied": "Logs in die Zwischenablage kopiert.",
+    "debugLogEmpty": "Noch kein Debug-Log verfügbar.",
+    "debugLogExportFailed": "Debug-Log konnte nicht exportiert werden.",
+    "exportPasswords": "Passwörter exportieren",
+    "importPasswords": "Passwörter importieren",
+    "deleteAllData": "Alle Daten löschen",
+    "logout": "ABMELDEN",
+    "language": "Sprache",
+    "english": "Englisch",
+    "turkish": "Türkisch",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "save": "Speichern",
+    "verify": "Überprüfen",
+    "enterPin": "PIN eingeben",
+    "addNewPassword": "Neues Passwort hinzufügen",
+    "editPassword": "Passwort bearbeiten",
+    "categoryLabel": "Kategorie",
+    "platformTitleLabel": "Plattform / Titel",
+    "titleRequired": "Titel ist erforderlich",
+    "usernameEmailLabel": "Benutzername / E-Mail",
+    "usernameRequired": "Benutzername ist erforderlich",
+    "passwordLabel": "Passwort",
+    "passwordRequired": "Passwort ist erforderlich",
+    "generatePasswordTooltip": "Passwort generieren",
+    "update": "AKTUALISIEREN",
+    "saveAction": "SPEICHERN",
+    "generatePasswordTitle": "Passwort generieren",
+    "selectOptions": "Mindestens eine Option wählen",
+    "lengthLabel": "Länge: ",
+    "uppercaseOption": "Großbuchstaben (A-Z)",
+    "lowercaseOption": "Kleinbuchstaben (a-z)",
+    "numbersOption": "Zahlen (0-9)",
+    "symbolsOption": "Symbole (!@#)",
+    "refresh": "Aktualisieren",
+    "use": "VERWENDEN",
+    "categoryGeneral": "Allgemein",
+    "categorySocial": "Sozial",
+    "categoryWork": "Arbeit",
+    "categoryFinance": "Finanzen",
+    "categoryShopping": "Einkaufen",
+    "categoryOther": "Andere",
+    "categoryAll": "Alle",
+    "myVaultTitle": "Mein Tresor",
+    "searchPasswordsHint": "Passwörter suchen...",
+    "noPasswordsFound": "Keine Passwörter gefunden.",
+    "newPassword": "Neues Passwort",
+    "deletePasswordTitle": "Passwort löschen?",
+    "deletePasswordMessage": "Diese Aktion kann nicht rückgängig gemacht werden.",
+    "passwordDeleted": "Passwort gelöscht.",
+    "copiedPassword": "{title}-Passwort kopiert!",
+    "@copiedPassword": {
+        "placeholders": {
+            "title": {}
+        }
+    },
+    "copiedUsername": "{title}-Benutzername kopiert!",
+    "@copiedUsername": {
+        "placeholders": {
+            "title": {}
+        }
+    },
+    "pinMinLength": "PIN muss mindestens 4 Ziffern haben",
+    "incorrectPin": "Falsche PIN!",
+    "createMasterPinTitle": "Master-PIN erstellen",
+    "createMasterPinSubtitle": "Sichere deine Daten mit einer Master-PIN.",
+    "enterPinToDecrypt": "PIN eingeben, um Daten zu entschlüsseln.",
+    "setMasterPinAction": "MASTER-PIN FESTLEGEN",
+    "unlockVault": "TRESOR ÖFFNEN",
+    "tapToUseBiometrics": "Tippen, um Biometrie zu verwenden",
+    "verifyCurrentPinDescription": "Bitte geben Sie Ihre aktuelle PIN ein, um fortzufahren.",
+    "wrongPin": "Falsche PIN!",
+    "setNewPinTitle": "Neue PIN festlegen",
+    "setNewPinDescription": "Geben Sie Ihre neue Master-PIN ein.",
+    "pinChangeSuccess": "PIN aktualisiert.",
+    "pinChangeFailed": "PIN-Änderung fehlgeschlagen. Bitte erneut versuchen.",
+    "enterPanicPin": "Panik-PIN eingeben",
+    "panicPinSameAsMaster": "Darf nicht mit der Master-PIN identisch sein",
+    "panicPinSet": "Panik-PIN gesetzt.",
+    "panicPinInfoTitle": "Vor dem Aktivieren der Panik-PIN",
+    "panicPinInfoWhatItDoes": "Die Panik-PIN startet einen alternativen Notfallablauf.",
+    "panicPinInfoDecoyVault": "Sie zeigt einen Fake-Tresor statt Ihres echten Tresors.",
+    "panicPinInfoRisk": "Bei versehentlicher Nutzung können Daten als verloren wirken.",
+    "panicPinConfirmLabel": "Ich verstehe, dass dadurch ein Fake-Tresor-Ablauf entsteht.",
+    "panicPinConfirmRequired": "Bitte bestätigen Sie dies vor dem Speichern.",
+    "privacyModeHelperText": "Privatmodus zeigt leeren Tresor bis zur Entsperrung mit Haupt-PIN.",
+    "biometricAvailable": "Fingerabdruck / Face ID verwenden",
+    "biometricUnavailable": "Auf diesem Gerät nicht verfügbar",
+    "deleteAllTitle": "Sind Sie sicher?",
+    "deleteAllDescription": "Alle gespeicherten Passwörter werden dauerhaft gelöscht.",
+    "allPasswordsDeleted": "Alle Passwörter wurden dauerhaft gelöscht.",
+    "germanShort": "DE",
+    "noPasswordsToExport": "Keine Passwörter zum Exportieren.",
+    "backupShareText": "Moon-Passwort-Backup",
+    "saveBackupFileTitle": "Backup-Datei speichern",
+    "backupSavedToDevice": "Backup auf dem Gerät gespeichert.",
+    "backupLastTimestamp": "Letztes Backup: {timestamp}",
+    "@backupLastTimestamp": {
+        "placeholders": {
+            "timestamp": {}
+        }
+    },
+    "exportFailed": "Export fehlgeschlagen: {error}",
+    "@exportFailed": {
+        "placeholders": {
+            "error": {}
+        }
+    },
+    "passwordsImported": "{count} Passwörter erfolgreich importiert.",
+    "@passwordsImported": {
+        "placeholders": {
+            "count": {}
+        }
+    },
+    "importFailed": "Import fehlgeschlagen. Bitte wählen Sie eine gültige Backup-Datei.",
+    "importFailedInvalidOrPassword": "Backup ungültig oder falsches Passwort.",
+    "backupPassphraseTitle": "Backup-Passwort",
+    "backupPassphraseHint": "Backup-Passwort eingeben",
+    "backupPassphraseConfirmHint": "Backup-Passwort erneut eingeben",
+    "backupPassphraseMismatch": "Passwörter stimmen nicht überein.",
+    "backupPassphraseEmpty": "Passwort darf nicht leer sein.",
+    "backupWizardTitle": "Backup erstellen",
+    "backupWizardProgress": "Schritt {current} von {total}",
+    "@backupWizardProgress": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "backupWizardStep1Title": "Schritt 1: Backup erstellen",
+    "backupWizardStep1Body": "Deine Backup-Datei ist verschlüsselt (.enc). Sie kann nur mit deiner Backup-PIN geöffnet werden.",
+    "backupWizardCreateAction": "Verschlüsseltes Backup erstellen",
+    "backupWizardStep2Title": "Schritt 2: Ziel wählen",
+    "backupWizardStep2Body": "Wähle, wo die verschlüsselte Backup-Datei gespeichert werden soll.",
+    "backupWizardDestinationDownloads": "Downloads",
+    "backupWizardDestinationShare": "Teilen",
+    "backupWizardStep3Title": "Schritt 3: Erfolg bestätigen",
+    "backupWizardSuccessBody": "Verschlüsseltes Backup erfolgreich erstellt.",
+    "backupWizardFilename": "Dateiname: {fileName}",
+    "@backupWizardFilename": {
+        "placeholders": {
+            "fileName": {}
+        }
+    },
+    "backupWizardBackAction": "Zurück",
+    "backupWizardDoneAction": "Fertig",
+    "restoreSectionTitle": "Aus Backup wiederherstellen",
+    "restoreSectionDescription": "Wähle eine verschlüsselte Backup-Datei und gib die Backup-PIN ein.",
+    "restorePickFileCta": "Backup-Datei auswählen",
+    "restoreNoFileChosen": "Keine Datei ausgewählt",
+    "restoreSelectedFile": "Ausgewählte Datei: {fileName}",
+    "@restoreSelectedFile": {
+        "placeholders": {
+            "fileName": {}
+        }
+    },
+    "restoreSelectFileFirst": "Bitte zuerst eine Backup-Datei auswählen.",
+    "restoreWrongPin": "Falsche Backup-PIN. Bitte erneut versuchen.",
+    "restoreCorruptFile": "Diese Backup-Datei ist beschädigt oder nicht unterstützt.",
+    "restoreUnknownError": "Wiederherstellung fehlgeschlagen. Bitte erneut versuchen.",
+    "legacyImportWarningTitle": "Legacy-JSON-Import",
+    "legacyImportWarningBody": "Dieses JSON-Backup ist unverschlüsselt. Beim Import können Passwörter anderen Apps oder Diensten zugänglich werden. Fahren Sie nur fort, wenn Sie der Datei und der Umgebung vertrauen.",
+    "legacyImportConfirm": "Trotzdem importieren",
+    "clipboardWillClear": "Zwischenablage wird in 30 Sekunden gelöscht.",
+    "vaultLabel": "Tresor",
+    "privacyModeLabel": "Privatmodus",
+    "copiedToClipboard": "In Zwischenablage kopiert",
+    "usernameCopied": "Benutzername kopiert",
+    "autoLockTitle": "Auto-Sperre",
+    "clipboardSectionTitle": "Zwischenablage",
+    "clearClipboardAfterTitle": "Zwischenablage leeren nach",
+    "alsoClearUsernameCopiesTitle": "Benutzername/E-Mail-Kopien auch löschen",
+    "offLabel": "Aus",
+    "passwordRevealControlLabel": "Passwortsichtbarkeit",
+    "passwordRevealHoldHint": "Zum Anzeigen gedrückt halten",
+    "passwordRevealHoldTooltip": "Gedrückt halten",
+    "passwordRevealReleaseTooltip": "Zum Verbergen loslassen",
+    "clearSearchFiltersLabel": "Suche und Filter löschen",
+    "enableClipboardAutoClearFirstHint": "Zuerst Auto-Leeren aktivieren",
+    "secondsShort": "{seconds} s",
+    "@secondsShort": {
+        "placeholders": {
+            "seconds": {
+                "type": "int"
+            }
+        }
+    },
+    "minutesShort": "{minutes} min",
+    "@minutesShort": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "confirm": "Bestätigen",
+    "initErrorTitle": "Initialisierung fehlgeschlagen",
+    "initErrorBody": "Der Tresor konnte nicht entsperrt werden. Sie können es erneut versuchen oder zum Login wechseln.",
+    "retry": "Erneut versuchen",
+    "goToLogin": "Zum Login",
+    "biometricPrompt": "Bitte bestätigen Sie Ihre Identität zur Anmeldung",
+    "usePinToFinishUnlocking": "Zum Entsperren bitte PIN verwenden.",
+    "openLinkFailed": "Link konnte nicht geöffnet werden",
+    "vaultHealthTitle": "Tresor-Gesundheit",
+    "vaultHealthSubtitle": "Prüfung auf schwache, doppelte und veraltete Passwörter.",
+    "autofillTitle": "Automatisches Ausfüllen",
+    "autofillEnabledSubtitle": "Für Moon aktiviert",
+    "autofillDisabledSubtitle": "Nicht aktiviert. Tippen Sie zum Einrichten.",
+    "backupReminderTitle": "Backup-Erinnerung",
+    "backupReminderSubtitle": "Monatliche Erinnerung, wenn Ihr letztes Backup älter als 30 Tage ist.",
+    "supportDevelopmentTitle": "Entwicklung unterstützen",
+    "buyMeCoffeeTitle": "Spendiere mir einen Kaffee",
+    "supportDevelopmentBody": "Moon wird von einer einzelnen Person entwickelt. Ihre Unterstützung hilft, die App offline und gepflegt zu halten."
+}
+
+
+
+
+

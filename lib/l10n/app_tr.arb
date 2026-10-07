@@ -1,0 +1,254 @@
+﻿{
+    "@@locale": "tr",
+    "appTitle": "Moon Kasa",
+    "settings": "Ayarlar",
+    "appearance": "Görünüm",
+    "auto": "Oto",
+    "light": "Açık",
+    "dark": "Koyu",
+    "changeMasterPin": "Ana PIN'i Değiştir",
+    "biometricLogin": "Biyometrik Giriş",
+    "setPanicPin": "Panik PIN Ayarla",
+    "dataManagement": "Veri Yönetimi",
+    "backupRestoreTitle": "Yedekleme ve Geri Yükleme",
+    "backupRestoreDescription": "Şifrelenmiş yedek oluşturun ve bir yedek dosyasından geri yükleyin.",
+    "createBackupCta": "Yedek Oluştur",
+    "restoreFromBackupCta": "Yedekten Geri Yükle",
+    "backupLastUnknown": "Henüz yedek yok",
+    "backupGuideTitle": "Devam etmeden önce önemli",
+    "backupGuideStep1": "Düzenli yedek alın ve güvenli bir yerde saklayın.",
+    "backupGuideStep2": "PIN'inizi kaybederseniz kasanız kurtarılamaz.",
+    "backupGuideStep3": "Yedek parolasını cihazınızdan ayrı saklayın.",
+    "backupGuideStep4": "Geri yükleme, içe aktarılan öğeleri mevcut kasanıza birleştirir.",
+    "exportDebugLogTitle": "Hata günlüğünü dışa aktar",
+    "exportDebugLogWarning": "Günlük yığın izleri içerebilir ancak şifreler yer almamalıdır.",
+    "crashReportsSectionTitle": "Çökme raporları",
+    "shareCrashReportsTitle": "Çökme raporlarını paylaş",
+    "shareCrashReportsSubtitle": "Açıksa yerel logları elle dışa aktarabilirsiniz. Raporlar asla otomatik gönderilmez.",
+    "shareCrashReportsDisabled": "Log dışa aktarmadan önce Ayarlar'dan \"Çökme raporlarını paylaş\" seçeneğini açın.",
+    "viewLogsTitle": "Logları görüntüle",
+    "viewLogsEmpty": "Henüz log yok.",
+    "copyLogsAction": "Logları kopyala",
+    "logsCopied": "Loglar panoya kopyalandı.",
+    "debugLogEmpty": "Henüz dışa aktarılacak bir hata günlüğü yok.",
+    "debugLogExportFailed": "Hata günlüğü dışa aktarma başarısız.",
+    "exportPasswords": "Şifreleri Dışa Aktar",
+    "importPasswords": "Şifreleri İçe Aktar",
+    "deleteAllData": "Tüm Verileri Sil",
+    "logout": "ÇIKIŞ YAP",
+    "language": "Dil",
+    "english": "İngilizce",
+    "turkish": "Türkçe",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "save": "Kaydet",
+    "verify": "Doğrula",
+    "enterPin": "PIN Giriniz",
+    "addNewPassword": "Yeni Şifre Ekle",
+    "editPassword": "Şifre Düzenle",
+    "categoryLabel": "Kategori",
+    "platformTitleLabel": "Platform / Başlık",
+    "titleRequired": "Başlık zorunludur",
+    "usernameEmailLabel": "Kullanıcı adı / E-posta",
+    "usernameRequired": "Kullanıcı adı zorunludur",
+    "passwordLabel": "Şifre",
+    "passwordRequired": "Şifre zorunludur",
+    "generatePasswordTooltip": "Şifre Oluştur",
+    "update": "GÜNCELLE",
+    "saveAction": "KAYDET",
+    "generatePasswordTitle": "Şifre Oluştur",
+    "selectOptions": "En az bir seçenek seçin",
+    "lengthLabel": "Uzunluk: ",
+    "uppercaseOption": "Büyük harf (A-Z)",
+    "lowercaseOption": "Küçük harf (a-z)",
+    "numbersOption": "Rakamlar (0-9)",
+    "symbolsOption": "Semboller (!@#)",
+    "refresh": "Yenile",
+    "use": "KULLAN",
+    "categoryGeneral": "Genel",
+    "categorySocial": "Sosyal",
+    "categoryWork": "İş",
+    "categoryFinance": "Finans",
+    "categoryShopping": "Alışveriş",
+    "categoryOther": "Diğer",
+    "categoryAll": "Tümü",
+    "myVaultTitle": "Kasam",
+    "searchPasswordsHint": "Şifrelerde ara...",
+    "noPasswordsFound": "Henüz şifre eklemediniz.",
+    "newPassword": "Yeni Şifre",
+    "deletePasswordTitle": "Şifre silinsin mi?",
+    "deletePasswordMessage": "Bu işlem geri alınamaz.",
+    "passwordDeleted": "Şifre silindi.",
+    "copiedPassword": "{title} şifresi kopyalandı!",
+    "@copiedPassword": {
+        "placeholders": {
+            "title": {}
+        }
+    },
+    "copiedUsername": "{title} kullanıcı adı kopyalandı!",
+    "@copiedUsername": {
+        "placeholders": {
+            "title": {}
+        }
+    },
+    "pinMinLength": "PIN en az 4 haneli olmalı",
+    "incorrectPin": "PIN hatalı!",
+    "createMasterPinTitle": "Ana PIN Oluştur",
+    "createMasterPinSubtitle": "Verilerinizi ana PIN ile koruyun.",
+    "enterPinToDecrypt": "Verileri çözmek için PIN girin.",
+    "setMasterPinAction": "ANA PIN AYARLA",
+    "unlockVault": "KASAYI AÇ",
+    "tapToUseBiometrics": "Biyometrik kullanmak için dokunun",
+    "verifyCurrentPinDescription": "Devam etmek için mevcut PIN'inizi girin.",
+    "wrongPin": "PIN yanlış!",
+    "setNewPinTitle": "Yeni PIN Ayarla",
+    "setNewPinDescription": "Yeni ana PIN'inizi girin.",
+    "pinChangeSuccess": "PIN güncellendi.",
+    "pinChangeFailed": "PIN değiştirme başarısız. Tekrar deneyin.",
+    "enterPanicPin": "Panik PIN Girin",
+    "panicPinSameAsMaster": "Ana PIN ile aynı olamaz",
+    "panicPinSet": "Panik PIN ayarlandı.",
+    "panicPinInfoTitle": "Panik PIN'i etkinleştirmeden önce",
+    "panicPinInfoWhatItDoes": "Panik PIN, alternatif bir acil durum akışına giriş yapar.",
+    "panicPinInfoDecoyVault": "Gerçek kasanız yerine bir yem kasa gösterir.",
+    "panicPinInfoRisk": "Yanlışlıkla kullanırsanız verileriniz kayıp sanılabilir.",
+    "panicPinConfirmLabel": "Yem kasa akışının oluşturulacağını anlıyorum.",
+    "panicPinConfirmRequired": "Kaydetmeden önce lütfen onaylayın.",
+    "privacyModeHelperText": "Gizlilik modu, ana PIN girilene kadar kasayı boş gösterir.",
+    "biometricAvailable": "Parmak izi / Face ID kullan",
+    "biometricUnavailable": "Bu cihazda kullanılmıyor",
+    "deleteAllTitle": "Emin misiniz?",
+    "deleteAllDescription": "Kaydedilmiş tüm şifreler kalıcı olarak silinecek.",
+    "allPasswordsDeleted": "Tüm şifreler kalıcı olarak silindi.",
+    "germanShort": "DE",
+    "noPasswordsToExport": "Dışa aktarılacak şifre yok.",
+    "backupShareText": "Moon şifre yedeği",
+    "saveBackupFileTitle": "Yedek dosyasını kaydet",
+    "backupSavedToDevice": "Yedek cihaza kaydedildi.",
+    "backupLastTimestamp": "Son yedek: {timestamp}",
+    "@backupLastTimestamp": {
+        "placeholders": {
+            "timestamp": {}
+        }
+    },
+    "exportFailed": "Dışa aktarma başarısız: {error}",
+    "@exportFailed": {
+        "placeholders": {
+            "error": {}
+        }
+    },
+    "passwordsImported": "{count} şifre başarıyla içe aktarıldı.",
+    "@passwordsImported": {
+        "placeholders": {
+            "count": {}
+        }
+    },
+    "importFailed": "İçe aktarma başarısız. Lütfen geçerli bir yedek dosyası seçin.",
+    "importFailedInvalidOrPassword": "Yedek dosyası geçersiz veya parola hatalı.",
+    "backupPassphraseTitle": "Yedek parolası",
+    "backupPassphraseHint": "Yedek parolasını girin",
+    "backupPassphraseConfirmHint": "Yedek parolasını tekrar girin",
+    "backupPassphraseMismatch": "Parolalar eşleşmiyor.",
+    "backupPassphraseEmpty": "Parola boş olamaz.",
+    "backupWizardTitle": "Yedek oluştur",
+    "backupWizardProgress": "Adım {current} / {total}",
+    "@backupWizardProgress": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "backupWizardStep1Title": "Adım 1: Yedek oluştur",
+    "backupWizardStep1Body": "Yedek dosyanız şifrelenir (.enc). Sadece yedek PIN'iniz ile açılabilir.",
+    "backupWizardCreateAction": "Şifreli yedek oluştur",
+    "backupWizardStep2Title": "Adım 2: Hedef seçin",
+    "backupWizardStep2Body": "Şifreli yedek dosyasını nereye kaydedeceğinizi seçin.",
+    "backupWizardDestinationDownloads": "İndirilenler",
+    "backupWizardDestinationShare": "Paylaş",
+    "backupWizardStep3Title": "Adım 3: Başarıyı onayla",
+    "backupWizardSuccessBody": "Şifreli yedek başarıyla oluşturuldu.",
+    "backupWizardFilename": "Dosya adı: {fileName}",
+    "@backupWizardFilename": {
+        "placeholders": {
+            "fileName": {}
+        }
+    },
+    "backupWizardBackAction": "Geri",
+    "backupWizardDoneAction": "Bitti",
+    "restoreSectionTitle": "Yedekten geri yükle",
+    "restoreSectionDescription": "Şifreli bir yedek dosyası seçin ve geri yüklemek için yedek PIN'inizi girin.",
+    "restorePickFileCta": "Yedek dosyası seç",
+    "restoreNoFileChosen": "Dosya seçilmedi",
+    "restoreSelectedFile": "Seçilen dosya: {fileName}",
+    "@restoreSelectedFile": {
+        "placeholders": {
+            "fileName": {}
+        }
+    },
+    "restoreSelectFileFirst": "Önce bir yedek dosyası seçin.",
+    "restoreWrongPin": "Yedek PIN hatalı. Tekrar deneyin.",
+    "restoreCorruptFile": "Bu yedek dosyası bozuk veya desteklenmiyor.",
+    "restoreUnknownError": "Geri yükleme başarısız. Lütfen tekrar deneyin.",
+    "legacyImportWarningTitle": "Eski JSON içe aktarma",
+    "legacyImportWarningBody": "Bu JSON yedeği şifrelenmemiştir. İçe aktarma sırasında şifreleriniz diğer uygulamalara veya servislere açılabilir. Yalnızca dosyaya ve ortama güveniyorsanız devam edin.",
+    "legacyImportConfirm": "Yine de içe aktar",
+    "clipboardWillClear": "Pano 30 saniye içinde temizlenecek.",
+    "vaultLabel": "Kasa",
+    "privacyModeLabel": "Gizlilik modu",
+    "copiedToClipboard": "Panoya kopyalandı",
+    "usernameCopied": "Kullanıcı adı kopyalandı",
+    "autoLockTitle": "Otomatik kilit",
+    "clipboardSectionTitle": "Pano",
+    "clearClipboardAfterTitle": "Panoyu temizle",
+    "alsoClearUsernameCopiesTitle": "Kullanıcı adı/e-posta kopyalarını da temizle",
+    "offLabel": "Kapalı",
+    "passwordRevealControlLabel": "Şifre görünürlüğü",
+    "passwordRevealHoldHint": "Şifreyi görmek için basılı tut",
+    "passwordRevealHoldTooltip": "Basılı tut",
+    "passwordRevealReleaseTooltip": "Gizlemek için bırak",
+    "clearSearchFiltersLabel": "Arama ve filtreleri temizle",
+    "enableClipboardAutoClearFirstHint": "Önce pano otomatik temizlemeyi açın",
+    "secondsShort": "{seconds} sn",
+    "@secondsShort": {
+        "placeholders": {
+            "seconds": {
+                "type": "int"
+            }
+        }
+    },
+    "minutesShort": "{minutes} dk",
+    "@minutesShort": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "confirm": "Onayla",
+    "initErrorTitle": "Başlatma başarısız",
+    "initErrorBody": "Kasa açılamadı. Yeniden deneyebilir veya giriş ekranına dönebilirsiniz.",
+    "retry": "Tekrar dene",
+    "goToLogin": "Giriş ekranına git",
+    "biometricPrompt": "Giriş yapmak için kimliğinizi doğrulayın",
+    "usePinToFinishUnlocking": "Kilidi tamamlamak için PIN kullanın.",
+    "openLinkFailed": "Bağlantı açılamadı",
+    "vaultHealthTitle": "Kasa Sağlığı",
+    "vaultHealthSubtitle": "Zayıf, tekrar eden ve eski şifre kontrolleri.",
+    "autofillTitle": "Otomatik Doldurma",
+    "autofillEnabledSubtitle": "Moon için etkin",
+    "autofillDisabledSubtitle": "Etkin değil. Kurmak için dokunun.",
+    "backupReminderTitle": "Yedek hatırlatıcı",
+    "backupReminderSubtitle": "Son yedek 30 günden eskiyse aylık hatırlatma gösterilir.",
+    "supportDevelopmentTitle": "Geliştirmeyi Destekle",
+    "buyMeCoffeeTitle": "Bana bir kahve ısmarla",
+    "supportDevelopmentBody": "Moon tek bir geliştirici tarafından yapılıyor. Desteğiniz uygulamanın çevrimdışı ve güncel kalmasına yardımcı olur."
+}
+
+
+
+
+

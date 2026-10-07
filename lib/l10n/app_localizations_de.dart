@@ -1,0 +1,632 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'app_localizations.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for German (`de`).
+class AppLocalizationsDe extends AppLocalizations {
+  AppLocalizationsDe([String locale = 'de']) : super(locale);
+
+  @override
+  String get appTitle => 'Moon Tresor';
+
+  @override
+  String get settings => 'Einstellungen';
+
+  @override
+  String get appearance => 'Aussehen';
+
+  @override
+  String get auto => 'Auto';
+
+  @override
+  String get light => 'Hell';
+
+  @override
+  String get dark => 'Dunkel';
+
+  @override
+  String get changeMasterPin => 'Master-PIN ändern';
+
+  @override
+  String get biometricLogin => 'Biometrischer Login';
+
+  @override
+  String get setPanicPin => 'Panik-PIN setzen';
+
+  @override
+  String get dataManagement => 'Datenverwaltung';
+
+  @override
+  String get backupRestoreTitle => 'Sichern und Wiederherstellen';
+
+  @override
+  String get backupRestoreDescription =>
+      'Erstellen Sie verschlüsselte Backups und stellen Sie aus einer Backup-Datei wieder her.';
+
+  @override
+  String get createBackupCta => 'Backup erstellen';
+
+  @override
+  String get restoreFromBackupCta => 'Aus Backup wiederherstellen';
+
+  @override
+  String get backupLastUnknown => 'Noch kein Backup';
+
+  @override
+  String get backupGuideTitle => 'Wichtig vor dem Fortfahren';
+
+  @override
+  String get backupGuideStep1 =>
+      'Erstellen Sie regelmäßig Backups und bewahren Sie sie sicher auf.';
+
+  @override
+  String get backupGuideStep2 =>
+      'Wenn Sie Ihre PIN verlieren, kann Ihr Tresor nicht wiederhergestellt werden.';
+
+  @override
+  String get backupGuideStep3 =>
+      'Bewahren Sie Ihr Backup-Passwort getrennt vom Gerät auf.';
+
+  @override
+  String get backupGuideStep4 =>
+      'Beim Wiederherstellen werden importierte Einträge mit Ihrem aktuellen Tresor zusammengeführt.';
+
+  @override
+  String get exportDebugLogTitle => 'Debug-Log exportieren';
+
+  @override
+  String get exportDebugLogWarning =>
+      'Das Log kann Stack-Traces enthalten, aber keine Passwörter.';
+
+  @override
+  String get crashReportsSectionTitle => 'Absturzberichte';
+
+  @override
+  String get shareCrashReportsTitle => 'Absturzberichte teilen';
+
+  @override
+  String get shareCrashReportsSubtitle =>
+      'Wenn aktiviert, können Sie lokale Logs manuell exportieren. Es wird nichts automatisch gesendet.';
+
+  @override
+  String get shareCrashReportsDisabled =>
+      'Aktivieren Sie in den Einstellungen \"Absturzberichte teilen\", bevor Sie Logs exportieren.';
+
+  @override
+  String get viewLogsTitle => 'Logs anzeigen';
+
+  @override
+  String get viewLogsEmpty => 'Noch keine Logs verfügbar.';
+
+  @override
+  String get copyLogsAction => 'Logs kopieren';
+
+  @override
+  String get logsCopied => 'Logs in die Zwischenablage kopiert.';
+
+  @override
+  String get debugLogEmpty => 'Noch kein Debug-Log verfügbar.';
+
+  @override
+  String get debugLogExportFailed =>
+      'Debug-Log konnte nicht exportiert werden.';
+
+  @override
+  String get exportPasswords => 'Passwörter exportieren';
+
+  @override
+  String get importPasswords => 'Passwörter importieren';
+
+  @override
+  String get deleteAllData => 'Alle Daten löschen';
+
+  @override
+  String get logout => 'ABMELDEN';
+
+  @override
+  String get language => 'Sprache';
+
+  @override
+  String get english => 'Englisch';
+
+  @override
+  String get turkish => 'Türkisch';
+
+  @override
+  String get cancel => 'Abbrechen';
+
+  @override
+  String get delete => 'Löschen';
+
+  @override
+  String get save => 'Speichern';
+
+  @override
+  String get verify => 'Überprüfen';
+
+  @override
+  String get enterPin => 'PIN eingeben';
+
+  @override
+  String get addNewPassword => 'Neues Passwort hinzufügen';
+
+  @override
+  String get editPassword => 'Passwort bearbeiten';
+
+  @override
+  String get categoryLabel => 'Kategorie';
+
+  @override
+  String get platformTitleLabel => 'Plattform / Titel';
+
+  @override
+  String get titleRequired => 'Titel ist erforderlich';
+
+  @override
+  String get usernameEmailLabel => 'Benutzername / E-Mail';
+
+  @override
+  String get usernameRequired => 'Benutzername ist erforderlich';
+
+  @override
+  String get passwordLabel => 'Passwort';
+
+  @override
+  String get passwordRequired => 'Passwort ist erforderlich';
+
+  @override
+  String get generatePasswordTooltip => 'Passwort generieren';
+
+  @override
+  String get update => 'AKTUALISIEREN';
+
+  @override
+  String get saveAction => 'SPEICHERN';
+
+  @override
+  String get generatePasswordTitle => 'Passwort generieren';
+
+  @override
+  String get selectOptions => 'Mindestens eine Option wählen';
+
+  @override
+  String get lengthLabel => 'Länge: ';
+
+  @override
+  String get uppercaseOption => 'Großbuchstaben (A-Z)';
+
+  @override
+  String get lowercaseOption => 'Kleinbuchstaben (a-z)';
+
+  @override
+  String get numbersOption => 'Zahlen (0-9)';
+
+  @override
+  String get symbolsOption => 'Symbole (!@#)';
+
+  @override
+  String get refresh => 'Aktualisieren';
+
+  @override
+  String get use => 'VERWENDEN';
+
+  @override
+  String get categoryGeneral => 'Allgemein';
+
+  @override
+  String get categorySocial => 'Sozial';
+
+  @override
+  String get categoryWork => 'Arbeit';
+
+  @override
+  String get categoryFinance => 'Finanzen';
+
+  @override
+  String get categoryShopping => 'Einkaufen';
+
+  @override
+  String get categoryOther => 'Andere';
+
+  @override
+  String get categoryAll => 'Alle';
+
+  @override
+  String get myVaultTitle => 'Mein Tresor';
+
+  @override
+  String get searchPasswordsHint => 'Passwörter suchen...';
+
+  @override
+  String get noPasswordsFound => 'Keine Passwörter gefunden.';
+
+  @override
+  String get newPassword => 'Neues Passwort';
+
+  @override
+  String get deletePasswordTitle => 'Passwort löschen?';
+
+  @override
+  String get deletePasswordMessage =>
+      'Diese Aktion kann nicht rückgängig gemacht werden.';
+
+  @override
+  String get passwordDeleted => 'Passwort gelöscht.';
+
+  @override
+  String copiedPassword(Object title) {
+    return '$title-Passwort kopiert!';
+  }
+
+  @override
+  String copiedUsername(Object title) {
+    return '$title-Benutzername kopiert!';
+  }
+
+  @override
+  String get pinMinLength => 'PIN muss mindestens 4 Ziffern haben';
+
+  @override
+  String get incorrectPin => 'Falsche PIN!';
+
+  @override
+  String get createMasterPinTitle => 'Master-PIN erstellen';
+
+  @override
+  String get createMasterPinSubtitle =>
+      'Sichere deine Daten mit einer Master-PIN.';
+
+  @override
+  String get enterPinToDecrypt => 'PIN eingeben, um Daten zu entschlüsseln.';
+
+  @override
+  String get setMasterPinAction => 'MASTER-PIN FESTLEGEN';
+
+  @override
+  String get unlockVault => 'TRESOR ÖFFNEN';
+
+  @override
+  String get tapToUseBiometrics => 'Tippen, um Biometrie zu verwenden';
+
+  @override
+  String get verifyCurrentPinDescription =>
+      'Bitte geben Sie Ihre aktuelle PIN ein, um fortzufahren.';
+
+  @override
+  String get wrongPin => 'Falsche PIN!';
+
+  @override
+  String get setNewPinTitle => 'Neue PIN festlegen';
+
+  @override
+  String get setNewPinDescription => 'Geben Sie Ihre neue Master-PIN ein.';
+
+  @override
+  String get pinChangeSuccess => 'PIN aktualisiert.';
+
+  @override
+  String get pinChangeFailed =>
+      'PIN-Änderung fehlgeschlagen. Bitte erneut versuchen.';
+
+  @override
+  String get enterPanicPin => 'Panik-PIN eingeben';
+
+  @override
+  String get panicPinSameAsMaster =>
+      'Darf nicht mit der Master-PIN identisch sein';
+
+  @override
+  String get panicPinSet => 'Panik-PIN gesetzt.';
+
+  @override
+  String get panicPinInfoTitle => 'Vor dem Aktivieren der Panik-PIN';
+
+  @override
+  String get panicPinInfoWhatItDoes =>
+      'Die Panik-PIN startet einen alternativen Notfallablauf.';
+
+  @override
+  String get panicPinInfoDecoyVault =>
+      'Sie zeigt einen Fake-Tresor statt Ihres echten Tresors.';
+
+  @override
+  String get panicPinInfoRisk =>
+      'Bei versehentlicher Nutzung können Daten als verloren wirken.';
+
+  @override
+  String get panicPinConfirmLabel =>
+      'Ich verstehe, dass dadurch ein Fake-Tresor-Ablauf entsteht.';
+
+  @override
+  String get panicPinConfirmRequired =>
+      'Bitte bestätigen Sie dies vor dem Speichern.';
+
+  @override
+  String get privacyModeHelperText =>
+      'Privatmodus zeigt leeren Tresor bis zur Entsperrung mit Haupt-PIN.';
+
+  @override
+  String get biometricAvailable => 'Fingerabdruck / Face ID verwenden';
+
+  @override
+  String get biometricUnavailable => 'Auf diesem Gerät nicht verfügbar';
+
+  @override
+  String get deleteAllTitle => 'Sind Sie sicher?';
+
+  @override
+  String get deleteAllDescription =>
+      'Alle gespeicherten Passwörter werden dauerhaft gelöscht.';
+
+  @override
+  String get allPasswordsDeleted =>
+      'Alle Passwörter wurden dauerhaft gelöscht.';
+
+  @override
+  String get germanShort => 'DE';
+
+  @override
+  String get noPasswordsToExport => 'Keine Passwörter zum Exportieren.';
+
+  @override
+  String get backupShareText => 'Moon-Passwort-Backup';
+
+  @override
+  String get saveBackupFileTitle => 'Backup-Datei speichern';
+
+  @override
+  String get backupSavedToDevice => 'Backup auf dem Gerät gespeichert.';
+
+  @override
+  String backupLastTimestamp(Object timestamp) {
+    return 'Letztes Backup: $timestamp';
+  }
+
+  @override
+  String exportFailed(Object error) {
+    return 'Export fehlgeschlagen: $error';
+  }
+
+  @override
+  String passwordsImported(Object count) {
+    return '$count Passwörter erfolgreich importiert.';
+  }
+
+  @override
+  String get importFailed =>
+      'Import fehlgeschlagen. Bitte wählen Sie eine gültige Backup-Datei.';
+
+  @override
+  String get importFailedInvalidOrPassword =>
+      'Backup ungültig oder falsches Passwort.';
+
+  @override
+  String get backupPassphraseTitle => 'Backup-Passwort';
+
+  @override
+  String get backupPassphraseHint => 'Backup-Passwort eingeben';
+
+  @override
+  String get backupPassphraseConfirmHint => 'Backup-Passwort erneut eingeben';
+
+  @override
+  String get backupPassphraseMismatch => 'Passwörter stimmen nicht überein.';
+
+  @override
+  String get backupPassphraseEmpty => 'Passwort darf nicht leer sein.';
+
+  @override
+  String get backupWizardTitle => 'Backup erstellen';
+
+  @override
+  String backupWizardProgress(int current, int total) {
+    return 'Schritt $current von $total';
+  }
+
+  @override
+  String get backupWizardStep1Title => 'Schritt 1: Backup erstellen';
+
+  @override
+  String get backupWizardStep1Body =>
+      'Deine Backup-Datei ist verschlüsselt (.enc). Sie kann nur mit deiner Backup-PIN geöffnet werden.';
+
+  @override
+  String get backupWizardCreateAction => 'Verschlüsseltes Backup erstellen';
+
+  @override
+  String get backupWizardStep2Title => 'Schritt 2: Ziel wählen';
+
+  @override
+  String get backupWizardStep2Body =>
+      'Wähle, wo die verschlüsselte Backup-Datei gespeichert werden soll.';
+
+  @override
+  String get backupWizardDestinationDownloads => 'Downloads';
+
+  @override
+  String get backupWizardDestinationShare => 'Teilen';
+
+  @override
+  String get backupWizardStep3Title => 'Schritt 3: Erfolg bestätigen';
+
+  @override
+  String get backupWizardSuccessBody =>
+      'Verschlüsseltes Backup erfolgreich erstellt.';
+
+  @override
+  String backupWizardFilename(Object fileName) {
+    return 'Dateiname: $fileName';
+  }
+
+  @override
+  String get backupWizardBackAction => 'Zurück';
+
+  @override
+  String get backupWizardDoneAction => 'Fertig';
+
+  @override
+  String get restoreSectionTitle => 'Aus Backup wiederherstellen';
+
+  @override
+  String get restoreSectionDescription =>
+      'Wähle eine verschlüsselte Backup-Datei und gib die Backup-PIN ein.';
+
+  @override
+  String get restorePickFileCta => 'Backup-Datei auswählen';
+
+  @override
+  String get restoreNoFileChosen => 'Keine Datei ausgewählt';
+
+  @override
+  String restoreSelectedFile(Object fileName) {
+    return 'Ausgewählte Datei: $fileName';
+  }
+
+  @override
+  String get restoreSelectFileFirst =>
+      'Bitte zuerst eine Backup-Datei auswählen.';
+
+  @override
+  String get restoreWrongPin => 'Falsche Backup-PIN. Bitte erneut versuchen.';
+
+  @override
+  String get restoreCorruptFile =>
+      'Diese Backup-Datei ist beschädigt oder nicht unterstützt.';
+
+  @override
+  String get restoreUnknownError =>
+      'Wiederherstellung fehlgeschlagen. Bitte erneut versuchen.';
+
+  @override
+  String get legacyImportWarningTitle => 'Legacy-JSON-Import';
+
+  @override
+  String get legacyImportWarningBody =>
+      'Dieses JSON-Backup ist unverschlüsselt. Beim Import können Passwörter anderen Apps oder Diensten zugänglich werden. Fahren Sie nur fort, wenn Sie der Datei und der Umgebung vertrauen.';
+
+  @override
+  String get legacyImportConfirm => 'Trotzdem importieren';
+
+  @override
+  String get clipboardWillClear =>
+      'Zwischenablage wird in 30 Sekunden gelöscht.';
+
+  @override
+  String get vaultLabel => 'Tresor';
+
+  @override
+  String get privacyModeLabel => 'Privatmodus';
+
+  @override
+  String get copiedToClipboard => 'In Zwischenablage kopiert';
+
+  @override
+  String get usernameCopied => 'Benutzername kopiert';
+
+  @override
+  String get autoLockTitle => 'Auto-Sperre';
+
+  @override
+  String get clipboardSectionTitle => 'Zwischenablage';
+
+  @override
+  String get clearClipboardAfterTitle => 'Zwischenablage leeren nach';
+
+  @override
+  String get alsoClearUsernameCopiesTitle =>
+      'Benutzername/E-Mail-Kopien auch löschen';
+
+  @override
+  String get offLabel => 'Aus';
+
+  @override
+  String get passwordRevealControlLabel => 'Passwortsichtbarkeit';
+
+  @override
+  String get passwordRevealHoldHint => 'Zum Anzeigen gedrückt halten';
+
+  @override
+  String get passwordRevealHoldTooltip => 'Gedrückt halten';
+
+  @override
+  String get passwordRevealReleaseTooltip => 'Zum Verbergen loslassen';
+
+  @override
+  String get clearSearchFiltersLabel => 'Suche und Filter löschen';
+
+  @override
+  String get enableClipboardAutoClearFirstHint =>
+      'Zuerst Auto-Leeren aktivieren';
+
+  @override
+  String secondsShort(int seconds) {
+    return '$seconds s';
+  }
+
+  @override
+  String minutesShort(int minutes) {
+    return '$minutes min';
+  }
+
+  @override
+  String get confirm => 'Bestätigen';
+
+  @override
+  String get initErrorTitle => 'Initialisierung fehlgeschlagen';
+
+  @override
+  String get initErrorBody =>
+      'Der Tresor konnte nicht entsperrt werden. Sie können es erneut versuchen oder zum Login wechseln.';
+
+  @override
+  String get retry => 'Erneut versuchen';
+
+  @override
+  String get goToLogin => 'Zum Login';
+
+  @override
+  String get biometricPrompt =>
+      'Bitte bestätigen Sie Ihre Identität zur Anmeldung';
+
+  @override
+  String get usePinToFinishUnlocking => 'Zum Entsperren bitte PIN verwenden.';
+
+  @override
+  String get openLinkFailed => 'Link konnte nicht geöffnet werden';
+
+  @override
+  String get vaultHealthTitle => 'Tresor-Gesundheit';
+
+  @override
+  String get vaultHealthSubtitle =>
+      'Prüfung auf schwache, doppelte und veraltete Passwörter.';
+
+  @override
+  String get autofillTitle => 'Automatisches Ausfüllen';
+
+  @override
+  String get autofillEnabledSubtitle => 'Für Moon aktiviert';
+
+  @override
+  String get autofillDisabledSubtitle =>
+      'Nicht aktiviert. Tippen Sie zum Einrichten.';
+
+  @override
+  String get backupReminderTitle => 'Backup-Erinnerung';
+
+  @override
+  String get backupReminderSubtitle =>
+      'Monatliche Erinnerung, wenn Ihr letztes Backup älter als 30 Tage ist.';
+
+  @override
+  String get supportDevelopmentTitle => 'Entwicklung unterstützen';
+
+  @override
+  String get buyMeCoffeeTitle => 'Spendiere mir einen Kaffee';
+
+  @override
+  String get supportDevelopmentBody =>
+      'Moon wird von einer einzelnen Person entwickelt. Ihre Unterstützung hilft, die App offline und gepflegt zu halten.';
+}
